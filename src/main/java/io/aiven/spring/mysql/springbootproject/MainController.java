@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(path = "/demo")
 public class MainController {
 
-    
+    @Autowired
     private UserRepository userRepository;
 
     @PostMapping(path = "/add")
